@@ -1,10 +1,29 @@
-- 👋 Hi, I’m @Kimpoy0404
-- 👀 I’m interested in female 
-- 🌱 I’m currently learning JavaScript 
-- 💞️ I’m looking to collaborate on love
-- 📫 How to reach me ...
-Hahaha
-<!---
-Kimpoy0404/Kimpoy0404 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question</title>
+</head>
+<body>
+  <h1 id="resultText"></h1>
+  <script>
+    
+    let response = prompt("Do you love me? Type Yes or No");
+    let outputText = "";
+    
+    if (response=="Yes"){
+      outputText = " BJ ka saakin (BUKO JUICE) ";
+    }else if(response=="No"){
+      outputText = " edi wag ";
+    }else{
+      outputText = "please type Yes or No!!";
+    }
+    
+    document.getElementById("resultText").innerHTML = outputText;
+  </script>
+</body>
+</html>
+Footer
+
